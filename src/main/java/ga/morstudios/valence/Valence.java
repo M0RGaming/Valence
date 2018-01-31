@@ -23,7 +23,7 @@ public class Valence {
 		
 		Utils.getLogger().info("Preinit Stage");
 		
-		proxy.registerRenders();
+		
 		
 	}
 	
