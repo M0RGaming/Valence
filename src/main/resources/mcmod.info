@@ -1,0 +1,16 @@
+[
+{
+  "modid": "msv",
+  "name": "Valence: Minechem Reborn",
+  "description": "Example placeholder mod.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "valence.morstudios.tk",
+  "updateUrl": "",
+  "authorList": ["M0R_Gaming"],
+  "credits": "Jakimfett for making the original, M0R_Gaming for recreating it",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
