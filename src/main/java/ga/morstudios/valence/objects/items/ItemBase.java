@@ -12,11 +12,15 @@ public class ItemBase extends Item implements IHasModel{
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.BREWING);
+//		setHasSubtypes(true);
+		
+		
 		
 		ItemInit.ITEMS.add(this);
 	}
 	
 	public void registerModels() {
+		
 		Valence.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 

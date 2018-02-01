@@ -1,5 +1,6 @@
 package ga.morstudios.valence.util.handlers;
 
+import ga.morstudios.valence.util.Utils;
 import ga.morstudios.valence.init.ItemInit;
 import ga.morstudios.valence.util.IHasModel;
 import net.minecraft.item.Item;
@@ -26,6 +27,8 @@ public class RegistryHandler {
 			if (item instanceof IHasModel) {
 				((IHasModel)item).registerModels();
 			}
+			
+			Utils.getLogger().info("Registering Item Model " + item.getUnlocalizedName().substring(5));
 			
 		}
 	}
